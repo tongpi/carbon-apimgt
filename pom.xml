@@ -260,7 +260,7 @@
         <repository>
             <id>gdsnexus</id>
             <name>gdsnexus internal Repository</name>
-            <url>http://192.168.15.100:8081/nexus/repository/maven-public/</url>
+            <url>http://114.115.156.64:8081/repository/maven-public/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
