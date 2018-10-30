@@ -71,6 +71,20 @@
                     <groupId>io.swagger</groupId>
                     <artifactId>swagger-codegen-maven-plugin</artifactId>
                     <version>${io.swagger.codegen.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>generate</goal>
+                            </goals>
+                            <configuration>
+                                <language>java</language>
+                                <configOptions>
+                                    <withXml>true</withXml>
+                                </configOptions>
+                                <library>jersey2</library>
+                            </configuration>
+                        </execution>
+                    </executions>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
